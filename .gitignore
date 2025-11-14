@@ -1,3 +1,5 @@
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -167,6 +169,13 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Project-specific artifacts
+data/processed/
+data/index/
+data/raw/pdfs/
+runs/
+dashboard/node_modules/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
