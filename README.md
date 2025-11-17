@@ -116,3 +116,8 @@ Reports include RMSE, cosine similarity, precision/recall/F1, coverage, balance,
 - Add CI (e.g., GitHub Actions) to run `python -m eval.evaluator` on fixtures for regression testing.
 - Integrate Semantic Kernel/CrewAI if you want more agent planning or tool routing.
 
+---
+
+#### Data Source
+- S&P 500 Firms ESG Sustainability Reports Dataset
+https://www.kaggle.com/datasets/jaidityachopra/esg-sustainability-reports-of-s-and-p-500-companies/data
