@@ -2,6 +2,9 @@
 
 Automated ESG analyst that ingests sustainability reports, retrieves evidence, summarizes company posture, benchmarks it against peer scores, and reports evaluation metrics. Reachable via CLI, REST API, Python SDK, and a React dashboard.
 
+<img src="dashboard/screenshots/ESG-Intel-1.png" width="400" alt="Frontend screenshot" />
+<img src="dashboard/screenshots/ESG-Intel-2.png" width="400" alt="Frontend screenshot" />
+
 ## What It Does
 
 - **Agentic workflow** – Retriever → Summarizer → Comparator → Evaluator agents run end-to-end; use `python -m agents.pipeline TICKER` or `GET /api/analyze` to trigger the flow.
